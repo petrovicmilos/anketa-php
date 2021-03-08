@@ -1,0 +1,305 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+
+    
+
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.637)), url(img/apple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+ 
+.row {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+section {
+  padding: 80px 0;
+}
+
+
+header {
+  width: 100%;
+  height: 10%;
+  color: white;
+  
+}
+
+.logo {
+    float: left;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+.main-nav { 
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-right: 8%;
+   
+
+}
+
+.main-nav li {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+
+.sadrzaj {
+  color: white;
+  padding: 10% 20%;
+  
+  height:80%;
+}
+
+.sadrzaj h2 {
+  text-align: center;
+}
+
+.sadrzaj p {
+  border: 1px solid white;
+  margin-top: 5%;
+  text-align: center;
+  padding: 10%;
+}
+
+
+/* ------------------------------------- */
+/* LOGIN-FORM */
+/* ------------------------------------- */
+
+
+.login-box {
+  margin-top: 10%;
+  color: white;
+}
+
+.login-form {
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+}
+
+.login-btn {
+  width: 15% !important;
+  border-radius: 50px;
+  padding: 0.5% !important;
+ 
+}
+
+.login-form input {
+  width: 30%;
+  border-radius: 30px;
+  border: hidden;
+  padding: 0.4%;
+  color: black;
+}
+
+.login-btn {
+  background-color: #e67e22;
+  color: white;
+}
+
+.login-btn:hover,
+.login-btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #cf6d17;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+*:focus {
+  outline: none;
+}
+
+.login-form a {
+  color: #e67e22;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.login-form a:hover {
+  text-decoration: none;
+  color: #cf6d17;
+  
+}
+
+/* --------------------------------- */
+/* SIGNUP-FORM */
+/* --------------------------------- */
+
+.signup-box {
+  margin-top: 10%;
+  color: white;
+}
+
+.signup-form {
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+}
+
+.signup-btn {
+  width: 15% !important;
+  border-radius: 50px;
+  padding: 0.5% !important;
+ 
+}
+
+.signup-form input {
+  width: 30%;
+  border-radius: 30px;
+  border: hidden;
+  padding: 0.4%;
+  color: black;
+}
+
+.signup-btn {
+  background-color: #e67e22;
+  color: white;
+}
+
+.signup-btn:hover,
+.signup-btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #cf6d17;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+*:focus {
+  outline: none;
+}
+
+.signup-form a {
+  color: #e67e22;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.signup-form a:hover {
+  text-decoration: none;
+  color: #cf6d17;
+  
+}
+
+.signup-error {
+  font-size: 30px;
+}
+
+/* --------------------------------- */
+/* FOOTER */
+/* --------------------------------- */
+
+
+.footer {
+   margin-top: 40px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+ 
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}
+
+/* PIECHARTS */
+
+.pc {
+  margin-left: 15%;
+  background-color: transparent;
+}
+
+/* TABELA ODGOVORI */
+
+.tabela {
+  border: 1px solid white;
+  margin-top: 100px;
+  margin-left: 25%;
+}
+
+.tabela th {
+  padding: 10px;
+  border: 1px solid white;
+  color: white;
+}
+
+.tabela td {
+  border: 1px solid white;
+  color: white;
+}
+
+.buttonDelete {
+  width:200px;
+  height:40px;
+  margin:0px 0px 10px 0px;
+  background-color:#e67e22;
+  color: white;
+  border-radius: 30px;
+  border: hidden;
+  padding: 0.4%;
+   
+}
+
+.buttonDelete:hover {
+    background-color: #cf6d17;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+/* INDEX LINKS  */
+
+.indexLink:link,
+.indexLink:visited {
+    text-decoration: none;
+    color: #e67e22;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.indexLink:hover,
+.indexLink:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+/* font-family: 'Alegreya Sans', sans-serif; */
